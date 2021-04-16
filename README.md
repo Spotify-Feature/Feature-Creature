@@ -84,7 +84,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="Screen Shot 2021-04-16 at 7.14.04 PM![image](https://user-images.githubusercontent.com/29981064/115093409-355fbc80-9ee8-11eb-9ad7-4745ad376b36.png)" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
