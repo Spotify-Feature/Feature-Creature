@@ -41,6 +41,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 * User can view friend's/follower's playlists to analyze their music's features
 * User can search for highest feature (Ex: Most energetic song)
 * User can match with others based on similar music taste through similar features
+* User can post snippets of songs or quote lyrics
 
 ### 2. Screen Archetypes
 
