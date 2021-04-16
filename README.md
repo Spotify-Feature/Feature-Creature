@@ -11,7 +11,7 @@ Original App Design Project - README
 
 ## Overview
 ### Description
-Analyzes the different features of a Spotify user's songs and playlists, and allows them to share with friends/followers through created posts.
+Analyzes various audio features of a Spotify user's songs and playlists, and allows them to share with friends and followers through created posts.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
