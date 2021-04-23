@@ -94,7 +94,14 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+## Post (Discover Screen)
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+| clientID  | String | ID for user (handle)         |
+| author    | String | user's display name          |
+| objectID  | String | ID for post                  |
+| text      | String | a text box for user post     |
+| userImage | File   | user of post's profile image |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
