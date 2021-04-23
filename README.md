@@ -108,4 +108,11 @@ Post (Discover Screen)
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [Existing API Endpoints]
+- Sporify API - https://spotify.github.io/ios-sdk/html/
+   | HTTP Verb  | Endpoints | Description |
+   | ------------- | ------------- | ------------- |
+   | GET     | SPTAppRemoteAlbum | gets album name and URI  |
+   | GET     | SPTAppRemoteArtist | gets artist's name and URI |
+   | GET     | SPTAppRemoteTrack | gets current track's name URI, duration, artist, album, if it's                                      saved, and what episode and podcast |
+   | GET         | SPTAppRemotePlayerAPI | gets Spotify player |
