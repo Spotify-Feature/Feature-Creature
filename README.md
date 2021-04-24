@@ -98,14 +98,17 @@ Post (Discover Screen)
 | Property  | Type | Description |
 | ------------- | ------------- | ------------- |
 | clientID     | String | ID for user (handle)                                |
-| author       | String | user's display name                                 |
+| author       | Pointer to User | user's display name                        |
 | objectID     | String | ID for user post                                    |
 | caption      | String | a text box for user post                            |
 | image        | File   | user of post's profile image                        |
-| likesCount   | Int    | number of likes on a post                           |
-| commentsCount| Int    | count of comments on a post                         |
+| likesCount   | Number | number of likes on a post                           |
+| commentsCount| Number | count of comments on a post                         |
 | postTime     | DateTime (String) | displays how long ago post was published |
 ### Networking
+- [List of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [Existing API Endpoints]
    - Spotify API - https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
