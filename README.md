@@ -183,7 +183,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
    }
 
 **Existing API Endpoints**
-- Spotify API Base URL - [https://spotify.github.io/ios-sdk/html/](https://spotify.github.io/ios-sdk/html/)
+- Spotify API Base URL - https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
       | GET   | SPTAppRemoteAlbum | gets album name and URI  |
