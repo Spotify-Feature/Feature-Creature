@@ -108,11 +108,10 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 - [Create basic snippets for each Parse network request]
 * Create post screen
    * (Create/POST) Create a new post object 
-   
-   var comment = PFObject(className:"Comments")
-   comment["text"] = text
-   comment["post"] = selectedPost
-   comment["author"] = PFUser.current()!
+      var comment = PFObject(className:"Comments")
+      comment["text"] = text
+      comment["post"] = selectedPost
+      comment["author"] = PFUser.current()!
    
    SelectedPost.add(comment, forKey: "comments")
    // Saves the new object.
