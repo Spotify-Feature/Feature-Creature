@@ -106,6 +106,13 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 ### Networking
 **List of network requests by screen** 
 - [Create basic snippets for each Parse network request]
+* Create post screen
+   * (Create/POST) Create a new post object 
+* Profile screen 
+   * (Read/GET) 
+* Home Screen 
+   * (Create/POST) Create a new like on a post
+   * (Create/POST) create a new comment on a post
 
 **Existing API Endpoints**
   - Spotify API : https://spotify.github.io/ios-sdk/html/
