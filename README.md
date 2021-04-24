@@ -103,13 +103,46 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 | likesCount   | Number | number of likes on a post                           |
 | commentsCount| Number | count of comments on a post                         |
 | postTime     | DateTime (String) | displays how long ago post was published |
+
 ### Networking
-**List of network requests by screen** 
-- [Create basic snippets for each Parse network request]
+
+* Register Screen
+    ```
+   let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+         user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+            else {
+                print("Error: \(error?.localizedDescription)")
+            }
+        }
+* Login Screen
+   ```
+   let username = usernameField.text!
+   let password = passwordField.text!
+        
+   PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
+        if user != nil {
+            self.performSegue(withIdentifier: "loginSegue", sender: nil)
+         }
+         else {
+            print("Error: \(error?.localizedDescription)")
+         }
+      }
+        
 * Create post screen
    * (Create/POST) Create a new post object 
 
-   ```
+
+* Profile screen 
+   * (Read/GET) 
+* Home Screen 
+   * (Create/POST) Create a new like on a post
+   * (Create/POST) create a new comment on a post
+    ```
       var comment = PFObject(className:"Comments")
       comment["text"] = text
       comment["post"] = selectedPost
@@ -123,13 +156,6 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
    } else {
       print ("Error saving comment")
    }
- }
-
-* Profile screen 
-   * (Read/GET) 
-* Home Screen 
-   * (Create/POST) Create a new like on a post
-   * (Create/POST) create a new comment on a post
 
 **Existing API Endpoints**
 - Spotify API Base URL - [https://spotify.github.io/ios-sdk/html/](https://spotify.github.io/ios-sdk/html/)
