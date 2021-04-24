@@ -108,8 +108,9 @@ Post (Discover Screen)
 ### Networking
 **List of network requests by screen** 
 - [Create basic snippets for each Parse network request]
+
 **Existing API Endpoints**
-   - Spotify API - https://spotify.github.io/ios-sdk/html/
+- Spotify API - https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
       | GET     | SPTAppRemoteAlbum | gets album name and URI  |
