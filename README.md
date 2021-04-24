@@ -99,17 +99,14 @@ Post (Discover Screen)
 | ------------- | ------------- | ------------- |
 | clientID     | String | ID for user (handle)                                |
 | author       | String | user's display name                                 |
-| objectID     | String | ID for post                                         |
-| text         | String | a text box for user post                            |
-| userImage    | File   | user of post's profile image                        |
-| likeCount    | Int    | count of likes on a post                            |
-| commentCount | Int | count of comments on a post                            |
+| objectID     | String | ID for user post                                    |
+| caption      | String | a text box for user post                            |
+| image        | File   | user of post's profile image                        |
+| likesCount   | Int    | number of likes on a post                           |
+| commentsCount| Int    | count of comments on a post                         |
 | postTime     | DateTime (String) | displays how long ago post was published |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [Existing API Endpoints]
-   - Sporify API - https://spotify.github.io/ios-sdk/html/
+   - Spotify API - https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
       | GET     | SPTAppRemoteAlbum | gets album name and URI  |
