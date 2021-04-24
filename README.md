@@ -149,8 +149,6 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
        }
    }
 
-* Profile screen 
-   * (Read/GET) 
 * Home Screen 
    * (Create/POST) Create a new like on a post
      ```
