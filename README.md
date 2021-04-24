@@ -94,7 +94,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-Post (Discover Screen)
+**Post** (Discover Screen)
 | Property  | Type | Description |
 | ------------- | ------------- | ------------- |
 | clientID     | String | ID for user (handle)                                |
