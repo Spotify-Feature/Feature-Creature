@@ -110,12 +110,12 @@ Post (Discover Screen)
 - [Create basic snippets for each Parse network request]
 
 **Existing API Endpoints**
-- Spotify API - https://spotify.github.io/ios-sdk/html/
+  - Spotify API : https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
       | GET     | SPTAppRemoteAlbum | gets album name and URI  |
       | GET     | SPTAppRemoteArtist | gets artist's name and URI |
-      | GET     | SPTAppRemoteTrack | gets current track's name URI, duration, artist, album, if it's                                      saved, and what episode and podcast |
+      | GET     | SPTAppRemoteTrack | gets current track's name URI, duration, artist, album, if it's saved, and what episode and podcast |
       | GET     | SPTAppRemotePlayerAPI | gets Spotify player |
       | GET | imageAPI | gets images from Spotify app |
       | GET | userAPI  | gets user data from Spotify app |
