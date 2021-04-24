@@ -1,7 +1,7 @@
 Original App Design Project - README 
 ===
 
-# Spotify Feature
+# Spotify Feature Creature
 
 ## Table of Contents
 1. [Overview](#Overview)
