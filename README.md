@@ -106,9 +106,9 @@ Post (Discover Screen)
 | commentsCount| Number | count of comments on a post                         |
 | postTime     | DateTime (String) | displays how long ago post was published |
 ### Networking
-- [List of network requests by screen ]
+**List of network requests by screen** 
 - [Create basic snippets for each Parse network request]
-- [Existing API Endpoints]
+**Existing API Endpoints**
    - Spotify API - https://spotify.github.io/ios-sdk/html/
       | HTTP Verb  | Endpoints | Description |
       | ------------- | ------------- | ------------- |
