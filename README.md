@@ -153,15 +153,30 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
    * (Read/GET) 
 * Home Screen 
    * (Create/POST) Create a new like on a post
+     ```
+      var likes = PFObject(className:"Likes")
+      
+      likes["post"] = selectedPost
+      likes["author"] = PFUser.current()!
+      selectedPost.add(likes, forKey: "likes")
+      // Saves the new object.
+      selectedPost.saveInBackground {
+      (success: Bool, error: Error?) in
+      if (success) {
+         print ("Comment saved")
+      } else {
+         print ("Error saving comment")
+      }
+
    * (Create/POST) create a new comment on a post
     ```
       var comment = PFObject(className:"Comments")
       comment["text"] = text
-      comment["post"] = selectedPost
+      comment["post"] = Post
       comment["author"] = PFUser.current()!
-   SelectedPost.add(comment, forKey: "comments")
+  Post.add(comment, forKey: "comments")
    // Saves the new object.
-   parseObject.saveInBackground {
+   Post.saveInBackground {
    (success: Bool, error: Error?) in
    if (success) {
       print ("Comment saved")
