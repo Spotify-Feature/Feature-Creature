@@ -135,7 +135,19 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
         
 * Create post screen
    * (Create/POST) Create a new post object 
-
+    ```
+    let post = PFObject(className: "Posts")
+    post["caption"] = commentField.text!
+    post["author"] = PFUser.current()!
+ 
+    post.saveInBackground { (success, error) in
+       if success {
+          self.dismiss(animated: true, completion: nil)
+          print ("saved!")
+       } else {
+          print("error!")
+       }
+   }
 
 * Profile screen 
    * (Read/GET) 
