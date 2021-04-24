@@ -112,7 +112,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
       comment["text"] = text
       comment["post"] = selectedPost
       comment["author"] = PFUser.current()!
-   
+   '''
    SelectedPost.add(comment, forKey: "comments")
    // Saves the new object.
    parseObject.saveInBackground {
@@ -123,6 +123,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
       print ("Error saving comment")
    }
  }
+ '''
 * Profile screen 
    * (Read/GET) 
 * Home Screen 
