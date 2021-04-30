@@ -75,7 +75,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
    * Stream
 * Stream - User can scroll through posts of their followers
    * Detail?
-* Search - User can filter for posts about specific music or look in catagories (i.e. Energetic, Sad, etc.)
+* Search - User can filter for posts about specific music or look in categories (i.e. Energetic, Sad, etc.)
    * Stream
 * Creation
    * Stream
