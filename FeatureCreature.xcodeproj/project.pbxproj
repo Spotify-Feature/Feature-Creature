@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43C5567263C9DA700ACE9FF /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */; };
+		A43C5569263C9DB100ACE9FF /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */; };
+		A43C556B263C9DBA00ACE9FF /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */; };
 		A469B912263BCF2900E47A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B911263BCF2900E47A95 /* AppDelegate.swift */; };
 		A469B914263BCF2900E47A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B913263BCF2900E47A95 /* SceneDelegate.swift */; };
 		A469B916263BCF2900E47A95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B915263BCF2900E47A95 /* ViewController.swift */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43C555D263C9BEB00ACE9FF /* FtCreature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtCreature.h; sourceTree = "<group>"; };
+		A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		A469B90E263BCF2900E47A95 /* FeatureCreature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureCreature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A469B911263BCF2900E47A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A469B913263BCF2900E47A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43C5567263C9DA700ACE9FF /* SpotifyAudioPlayback.framework in Frameworks */,
+				A43C556B263C9DBA00ACE9FF /* SpotifyMetadata.framework in Frameworks */,
+				A43C5569263C9DB100ACE9FF /* SpotifyAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +116,10 @@
 				A469B91A263BCF2A00E47A95 /* Assets.xcassets */,
 				A469B91C263BCF2A00E47A95 /* LaunchScreen.storyboard */,
 				A469B91F263BCF2A00E47A95 /* Info.plist */,
+				A43C555D263C9BEB00ACE9FF /* FtCreature.h */,
+				A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */,
+				A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */,
+				A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */,
 			);
 			path = FeatureCreature;
 			sourceTree = "<group>";
@@ -372,7 +386,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 			};
 			name = Debug;
 		};
@@ -425,7 +441,9 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -435,6 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureCreature",
+				);
 				INFOPLIST_FILE = FeatureCreature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +464,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +476,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureCreature",
+				);
 				INFOPLIST_FILE = FeatureCreature/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +487,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
