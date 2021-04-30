@@ -66,7 +66,7 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate, SPTAu
     @IBAction func loginTapped(_ sender: Any) {
         if UIApplication.shared.openURL(loginUrl!){
             if auth.canHandle(auth.redirectURL) {
-            //to do something
+                self.performSegue(withIdentifier: "loginToHome", sender: self)
             }
         }
     }
