@@ -27,21 +27,22 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User can login - authenticate existing Spotify account
-* User can register a new account
-* User can choose an audio feature for their music (Mood, Properties, Context)
+- [x] User can login - authenticate existing Spotify account.
+- [x] User can register a new account.
+- [ ] User stays logged in across restarts. 
+- [ ] User can log out. 
+- [ ] User can view their profile.
+- [ ] User can choose an audio feature for their music (Mood, Properties, Context).
     * Ex. User can access the mood of the songs on their playlist: Danceability, Valence, Energy, Tempo
-* User can view their profile
-* User can create a post related to the current music they are listening to and link the song/playlist
+- [ ] User can create a post related to the current music they are listening to and link the song/playlist.
 
 **Optional Nice-to-have Stories**
 
-* User can follow other users
-* User can view friend's/follower's playlists to analyze their music's features
-* User can search for highest feature (Ex: Most energetic song)
-* User can match with others based on similar music taste through similar features
-* User can post snippets of songs or quote lyrics
+- [ ] User can follow other users
+- [ ] User can view friend's/follower's playlists to analyze their music's features
+- [ ] User can search for highest feature (Ex: Most energetic song)
+- [ ] User can match with others based on similar music taste through similar features
+- [ ] User can post snippets of songs or quote lyrics
 
 ### 2. Screen Archetypes
 
