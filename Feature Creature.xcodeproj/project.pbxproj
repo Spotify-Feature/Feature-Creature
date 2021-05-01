@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A43C5567263C9DA700ACE9FF /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */; };
-		A43C5569263C9DB100ACE9FF /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */; };
-		A43C556B263C9DBA00ACE9FF /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */; };
 		A469B912263BCF2900E47A95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B911263BCF2900E47A95 /* AppDelegate.swift */; };
 		A469B914263BCF2900E47A95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B913263BCF2900E47A95 /* SceneDelegate.swift */; };
 		A469B916263BCF2900E47A95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B915263BCF2900E47A95 /* ViewController.swift */; };
@@ -18,6 +15,9 @@
 		A469B91E263BCF2A00E47A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A469B91C263BCF2A00E47A95 /* LaunchScreen.storyboard */; };
 		A469B929263BCF2A00E47A95 /* FeatureCreatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B928263BCF2A00E47A95 /* FeatureCreatureTests.swift */; };
 		A469B934263BCF2A00E47A95 /* FeatureCreatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469B933263BCF2A00E47A95 /* FeatureCreatureUITests.swift */; };
+		A4924C37263CE95200DBBA5D /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4924C36263CE95200DBBA5D /* SpotifyAudioPlayback.framework */; };
+		A4924C39263CE95E00DBBA5D /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4924C38263CE95E00DBBA5D /* SpotifyAuthentication.framework */; };
+		A4924C3B263CE96600DBBA5D /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4924C3A263CE96600DBBA5D /* SpotifyMetadata.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,7 @@
 
 /* Begin PBXFileReference section */
 		A43C555D263C9BEB00ACE9FF /* FtCreature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtCreature.h; sourceTree = "<group>"; };
-		A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
-		A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
-		A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
-		A469B90E263BCF2900E47A95 /* FeatureCreature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureCreature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469B90E263BCF2900E47A95 /* Feature Creature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feature Creature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A469B911263BCF2900E47A95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A469B913263BCF2900E47A95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A469B915263BCF2900E47A95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,12 +47,15 @@
 		A469B91A263BCF2A00E47A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A469B91D263BCF2A00E47A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A469B91F263BCF2A00E47A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A469B924263BCF2A00E47A95 /* FeatureCreatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureCreatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469B924263BCF2A00E47A95 /* Feature CreatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feature CreatureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A469B928263BCF2A00E47A95 /* FeatureCreatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCreatureTests.swift; sourceTree = "<group>"; };
 		A469B92A263BCF2A00E47A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A469B92F263BCF2A00E47A95 /* FeatureCreatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureCreatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469B92F263BCF2A00E47A95 /* Feature CreatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feature CreatureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A469B933263BCF2A00E47A95 /* FeatureCreatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCreatureUITests.swift; sourceTree = "<group>"; };
 		A469B935263BCF2A00E47A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4924C36263CE95200DBBA5D /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		A4924C38263CE95E00DBBA5D /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		A4924C3A263CE96600DBBA5D /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43C5567263C9DA700ACE9FF /* SpotifyAudioPlayback.framework in Frameworks */,
-				A43C556B263C9DBA00ACE9FF /* SpotifyMetadata.framework in Frameworks */,
-				A43C5569263C9DB100ACE9FF /* SpotifyAuthentication.framework in Frameworks */,
+				A4924C37263CE95200DBBA5D /* SpotifyAudioPlayback.framework in Frameworks */,
+				A4924C3B263CE96600DBBA5D /* SpotifyMetadata.framework in Frameworks */,
+				A4924C39263CE95E00DBBA5D /* SpotifyAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		A469B905263BCF2900E47A95 = {
 			isa = PBXGroup;
 			children = (
-				A469B910263BCF2900E47A95 /* FeatureCreature */,
+				A469B910263BCF2900E47A95 /* Feature Creature */,
 				A469B927263BCF2A00E47A95 /* FeatureCreatureTests */,
 				A469B932263BCF2A00E47A95 /* FeatureCreatureUITests */,
 				A469B90F263BCF2900E47A95 /* Products */,
@@ -99,14 +99,14 @@
 		A469B90F263BCF2900E47A95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A469B90E263BCF2900E47A95 /* FeatureCreature.app */,
-				A469B924263BCF2A00E47A95 /* FeatureCreatureTests.xctest */,
-				A469B92F263BCF2A00E47A95 /* FeatureCreatureUITests.xctest */,
+				A469B90E263BCF2900E47A95 /* Feature Creature.app */,
+				A469B924263BCF2A00E47A95 /* Feature CreatureTests.xctest */,
+				A469B92F263BCF2A00E47A95 /* Feature CreatureUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A469B910263BCF2900E47A95 /* FeatureCreature */ = {
+		A469B910263BCF2900E47A95 /* Feature Creature */ = {
 			isa = PBXGroup;
 			children = (
 				A469B911263BCF2900E47A95 /* AppDelegate.swift */,
@@ -117,11 +117,11 @@
 				A469B91C263BCF2A00E47A95 /* LaunchScreen.storyboard */,
 				A469B91F263BCF2A00E47A95 /* Info.plist */,
 				A43C555D263C9BEB00ACE9FF /* FtCreature.h */,
-				A43C556A263C9DBA00ACE9FF /* SpotifyMetadata.framework */,
-				A43C5568263C9DB100ACE9FF /* SpotifyAuthentication.framework */,
-				A43C5566263C9DA700ACE9FF /* SpotifyAudioPlayback.framework */,
+				A4924C3A263CE96600DBBA5D /* SpotifyMetadata.framework */,
+				A4924C38263CE95E00DBBA5D /* SpotifyAuthentication.framework */,
+				A4924C36263CE95200DBBA5D /* SpotifyAudioPlayback.framework */,
 			);
-			path = FeatureCreature;
+			path = "Feature Creature";
 			sourceTree = "<group>";
 		};
 		A469B927263BCF2A00E47A95 /* FeatureCreatureTests */ = {
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A469B90D263BCF2900E47A95 /* FeatureCreature */ = {
+		A469B90D263BCF2900E47A95 /* Feature Creature */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A469B938263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreature" */;
+			buildConfigurationList = A469B938263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature Creature" */;
 			buildPhases = (
 				A469B90A263BCF2900E47A95 /* Sources */,
 				A469B90B263BCF2900E47A95 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = FeatureCreature;
+			name = "Feature Creature";
 			productName = FeatureCreature;
-			productReference = A469B90E263BCF2900E47A95 /* FeatureCreature.app */;
+			productReference = A469B90E263BCF2900E47A95 /* Feature Creature.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A469B923263BCF2A00E47A95 /* FeatureCreatureTests */ = {
+		A469B923263BCF2A00E47A95 /* Feature CreatureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A469B93B263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreatureTests" */;
+			buildConfigurationList = A469B93B263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature CreatureTests" */;
 			buildPhases = (
 				A469B920263BCF2A00E47A95 /* Sources */,
 				A469B921263BCF2A00E47A95 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				A469B926263BCF2A00E47A95 /* PBXTargetDependency */,
 			);
-			name = FeatureCreatureTests;
+			name = "Feature CreatureTests";
 			productName = FeatureCreatureTests;
-			productReference = A469B924263BCF2A00E47A95 /* FeatureCreatureTests.xctest */;
+			productReference = A469B924263BCF2A00E47A95 /* Feature CreatureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A469B92E263BCF2A00E47A95 /* FeatureCreatureUITests */ = {
+		A469B92E263BCF2A00E47A95 /* Feature CreatureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A469B93E263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreatureUITests" */;
+			buildConfigurationList = A469B93E263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature CreatureUITests" */;
 			buildPhases = (
 				A469B92B263BCF2A00E47A95 /* Sources */,
 				A469B92C263BCF2A00E47A95 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				A469B931263BCF2A00E47A95 /* PBXTargetDependency */,
 			);
-			name = FeatureCreatureUITests;
+			name = "Feature CreatureUITests";
 			productName = FeatureCreatureUITests;
-			productReference = A469B92F263BCF2A00E47A95 /* FeatureCreatureUITests.xctest */;
+			productReference = A469B92F263BCF2A00E47A95 /* Feature CreatureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A469B909263BCF2900E47A95 /* Build configuration list for PBXProject "FeatureCreature" */;
+			buildConfigurationList = A469B909263BCF2900E47A95 /* Build configuration list for PBXProject "Feature Creature" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A469B90D263BCF2900E47A95 /* FeatureCreature */,
-				A469B923263BCF2A00E47A95 /* FeatureCreatureTests */,
-				A469B92E263BCF2A00E47A95 /* FeatureCreatureUITests */,
+				A469B90D263BCF2900E47A95 /* Feature Creature */,
+				A469B923263BCF2A00E47A95 /* Feature CreatureTests */,
+				A469B92E263BCF2A00E47A95 /* Feature CreatureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		A469B926263BCF2A00E47A95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A469B90D263BCF2900E47A95 /* FeatureCreature */;
+			target = A469B90D263BCF2900E47A95 /* Feature Creature */;
 			targetProxy = A469B925263BCF2A00E47A95 /* PBXContainerItemProxy */;
 		};
 		A469B931263BCF2A00E47A95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A469B90D263BCF2900E47A95 /* FeatureCreature */;
+			target = A469B90D263BCF2900E47A95 /* Feature Creature */;
 			targetProxy = A469B930263BCF2A00E47A95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,7 +386,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sanjidahabdullah/Desktop/Feature Creature/Feature Creature/FtCreature.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 			};
@@ -441,7 +441,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sanjidahabdullah/Desktop/Feature Creature/Feature Creature/FtCreature.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VALIDATE_PRODUCT = YES;
@@ -456,15 +456,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FeatureCreature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
 				);
-				INFOPLIST_FILE = FeatureCreature/Info.plist;
+				INFOPLIST_FILE = "Feature Creature/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/amyking/Documents/Feature-Creature/FeatureCreature/FtCreature.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sanjidahabdullah/Desktop/Feature Creature/Feature Creature/FtCreature.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,15 +482,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FeatureCreature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
+					"$(PROJECT_DIR)/Feature\\ Creature",
 				);
-				INFOPLIST_FILE = FeatureCreature/Info.plist;
+				INFOPLIST_FILE = "Feature Creature/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/amyking/Documents/Feature-Creature/FeatureCreature/FtCreature.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sanjidahabdullah/Desktop/Feature Creature/Feature Creature/FtCreature.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,7 +517,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatureCreature.app/FeatureCreature";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feature Creature.app/Feature Creature";
 			};
 			name = Debug;
 		};
@@ -532,7 +538,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatureCreature.app/FeatureCreature";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feature Creature.app/Feature Creature";
 			};
 			name = Release;
 		};
@@ -577,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A469B909263BCF2900E47A95 /* Build configuration list for PBXProject "FeatureCreature" */ = {
+		A469B909263BCF2900E47A95 /* Build configuration list for PBXProject "Feature Creature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A469B936263BCF2A00E47A95 /* Debug */,
@@ -586,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A469B938263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreature" */ = {
+		A469B938263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature Creature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A469B939263BCF2A00E47A95 /* Debug */,
@@ -595,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A469B93B263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreatureTests" */ = {
+		A469B93B263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature CreatureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A469B93C263BCF2A00E47A95 /* Debug */,
@@ -604,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A469B93E263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "FeatureCreatureUITests" */ = {
+		A469B93E263BCF2A00E47A95 /* Build configuration list for PBXNativeTarget "Feature CreatureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A469B93F263BCF2A00E47A95 /* Debug */,
