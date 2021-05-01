@@ -29,7 +29,7 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 **Required Must-have Stories**
 - [x] User can login - authenticate existing Spotify account.
 - [x] User can register a new account.
-- [x] User stays logged in across restarts. 
+- [ ] User stays logged in across restarts. 
 - [ ] User can log out. 
 - [ ] User can view their profile.
 - [ ] User can choose an audio feature for their music (Mood, Properties, Context).
