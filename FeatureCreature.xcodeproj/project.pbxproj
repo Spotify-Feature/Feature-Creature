@@ -464,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/amyking/Documents/Feature-Creature/FeatureCreature/FtCreature.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +487,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FeatureCreature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/sanjidahabdullah/Desktop/FeatureCreature/FeatureCreature/FtCreature.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/amyking/Documents/Feature-Creature/FeatureCreature/FtCreature.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

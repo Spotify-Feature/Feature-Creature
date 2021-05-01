@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var auth = SPTAuth()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        auth.redirectURL = URL(string: "Feature-Creature://returnAfterLogin")
+        auth.redirectURL = URL(string: "featurecreature://returnafterlogin")
         auth.sessionUserDefaultsKey = "current session"
         return true
     }

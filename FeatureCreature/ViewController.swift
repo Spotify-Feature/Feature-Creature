@@ -27,7 +27,7 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate, SPTAu
     }
 
     func setup () {
-        let redirectURL = "Feature-Creature://returnAfterLogin"
+        let redirectURL = "featurecreature://returnafterlogin"
         let clientID = "b61afd3bed734244bfcbe6bc9ca8f3c1"
         auth.redirectURL = URL(string: redirectURL)
         auth.clientID = "b61afd3bed734244bfcbe6bc9ca8f3c1"
@@ -66,7 +66,7 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate, SPTAu
     @IBAction func loginTapped(_ sender: Any) {
         if UIApplication.shared.openURL(loginUrl!){
             if auth.canHandle(auth.redirectURL) {
-            //to do something
+                self.performSegue(withIdentifier: "loginToHome", sender: self)
             }
         }
     }
