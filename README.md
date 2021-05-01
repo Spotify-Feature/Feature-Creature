@@ -194,3 +194,12 @@ Analyzes the different features of a Spotify user's songs and playlists, and all
 | GET | SPTAppRemotePlayerAPI | gets Spotify player |
 | GET | imageAPI | gets images from Spotify app |
 | GET | userAPI  | gets user data from Spotify app |
+
+
+## Video Walkthrough
+
+Walkthrough of implemented user stories for sprint 1:
+
+<img src='http://g.recordit.co/mboRNjyhLr.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
